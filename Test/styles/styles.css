@@ -1,3 +1,7 @@
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
 body {
     text-align: center;
 }
@@ -22,4 +26,8 @@ p {
 footer {
   background-color: steelblue;
   color: white;
+}
+#active {
+    background-color: white;
+    color: steelblue;
 }
