@@ -6,6 +6,7 @@
 nav a{
     text-align: center;
     text-decoration: none;
+    color: black;
 } 
 #hero-msg h1{
     text-align: center;
@@ -24,43 +25,57 @@ section {
 }
 #background {
     height: 725px;
-    background-color: #B89057;
+    background-color: #FFFFFF;
 } 
 body{
-    background-color: #42271C;
-    color: #d9c2a3;
+    background-color: #FFFFFF;
+    color: black;
 }
 header{
-    background-color:rgba(44, 82, 17, 0.7);
+    background-color:rgba(134, 92, 37, 0.7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: #42BE7D;
+    color: black;
+}
+.home-title{
+    color: black;
+}
+h4{
+    color: black;
 }
 .book{
     background-color: #B89057;
     text-decoration: none;
+    color: black;
 }
 .join{
     background-color: #B89057;
     text-decoration: none;
+    color: black;
 }
 .book:hover{
-    background-color: #B89057;
+    background-color: #42BE7D;
+    color: black;
 } 
 .join:hover{
-    background-color: #B89057;
+    background-color:#42BE7D;
+    color: black;
 }
 #background{
     background-color: #B89057;
 }
 .msg{
     background-color: #B89057;
+    color: black;
 }
 footer{
     background-color: #B89057;
+    color: black;
 }
 footer a{
     text-decoration: none;
+    color: black;
 }
 .logo, .icon{
     width: 80px;
@@ -74,4 +89,6 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+    background-color:#42BE7D;
+    color: black;
 }        
