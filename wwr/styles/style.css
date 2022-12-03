@@ -193,6 +193,39 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/* FAQ PAGE CSS AFTER HERE*/
+.FAQ-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Questions{
+    padding: 20px;
+}
+.Question-Titles{
+    background-color:#42271C;
+    border-radius: 25px;
+
+}
+.Question-Titles h4 {
+    padding: 10px;
+    margin-bottom: 0%;
+}
+.Questions p{
+    background-color: #B89057;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
