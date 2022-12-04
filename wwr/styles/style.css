@@ -193,7 +193,9 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-/* FAQ PAGE CSS AFTER HERE*/
+
+
+
 .FAQ-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
