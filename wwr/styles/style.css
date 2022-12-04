@@ -196,33 +196,64 @@ main section img {
 /* FAQ PAGE CSS AFTER HERE*/
 .FAQ-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .Questions{
     padding: 20px;
+    margin: 20px;
+    border-style: solid ;
+    border-color: #42BE7D;
+    background-color: #B89057;
+
+
 }
 .Question-Titles{
-    background-color:#42271C;
+
     border-radius: 25px;
 
 }
 .Question-Titles h4 {
+    border-radius: 30px;
     padding: 10px;
-    margin-bottom: 0%;
+    background-color: #42271C;
+    color: #FFFFFF;
+
+
 }
 .Questions p{
-    background-color: #B89057;
-    border-radius: 25px;
-    padding: 25px;
+    text-align: left;
+}
+#Page-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
+#Page-banner img{
+    z-index: -1;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+#Page-banner h1{
+    text-align: center;
+    color: white;
+    grid-column: 2/3;
+    z-index: 1;
+    grid-row: 1/2;
+}
+.bottom-banner{
+    background-color: #B89057;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/4;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+#faq-button{
+    grid-column: 2/3;
 
-
-
-
-
-
-
+}
 
 
 
@@ -266,5 +297,15 @@ main section img {
     footer {
         margin-top: 25px;
     }
+    .FAQ-grid{
+        display: block;
+        height: auto;
+    }
+    #Page-banner{
+        display: block;
+        height: auto;
+    }
+    #Page-banner h1{
+    color: black;
+    }
 }
-   
